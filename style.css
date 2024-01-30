@@ -1,0 +1,129 @@
+body{
+	background: #fff;
+}
+
+.container{
+	position: relative;
+}
+.cart{
+	margin: 100px 0;
+	background-color: #F6F5FA;;
+	padding: 60px 0;
+}
+.total-price{
+	padding-bottom: 15px;
+}
+.cart-item{
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 15px 20px;
+	margin-bottom: 20px;
+}
+.center-item{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.cart-item img{
+	width: 115px;
+}
+.cart-item h5{
+    padding: 0 45px;
+}
+.cart-item .remove-item{
+	width: 25px!important;
+}
+.btn-default{
+	background-color: #fff;
+}
+.cart-item .form-control{
+	background-color: #F6F5FA;
+	border: none;
+    width: 65px;
+    border-radius: 10px!important;
+    font-weight: 700;
+    font-size: 20px;
+}
+.input-group{
+	width: unset;
+}
+.status{
+	text-align: right;
+}
+.check-out{
+    float: right;
+    padding: 10px 30px;
+	font-size: 19px;
+	background-color: #2FBE70;
+	border: none;
+}
+
+
+#about-me{
+	transition: 1s;
+	display: none;
+	position: absolute;
+	bottom: 0px;
+	left: -80px;
+	background: #00ffd2;
+	width: 900px;
+	height:500px;
+	margin-left: 200px;
+	margin-bottom: 100px;
+	border-radius: 20px;
+
+}
+
+#say-me{
+	font-family: fantasy;
+	float: left;
+	width: 50%;
+	margin-left: 5%;
+	padding: 100px 0px 0px 100px ;
+}
+
+#social-sec{
+height: 40px;
+}
+#social-sec i{
+	font-size: 30px;
+	padding: 5px;
+	transition: .3s;
+
+}
+#social-sec i svg{
+	width: 30px;
+	height: 25px;
+	color: black;
+	transition: .3s;
+}
+#social-sec i svg:hover{
+	scale: 1.4;
+}
+#social-sec i:hover{
+	scale: 1.3;
+	cursor: pointer;
+}
+#myImage{
+	float: right;
+	width: 45%;
+	overflow: hidden;
+}
+#myImage .img-2{
+	border-radius: 50%;
+	width: 400px;
+	height: 400px;
+}
+#portBtn{
+	padding: 10px 30px;
+	letter-spacing:1px ;
+	font-size: 20px;
+	border: none;
+	outline: none;
+	background: #00ffd2;
+	box-shadow: -1px -1px 0px #ffffff , 1px 1px 0px #979595 ;
+	/* box-shadow: 1px 1px 0px #979595; */
+	color: #535151;
+	border-radius: 20px;
+	/* background-image:url(https://www.programming-hero.com/banner/explore-btn.svg) ; */
+}
