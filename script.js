@@ -131,7 +131,7 @@ youtube.addEventListener("click", function(){
 
 let fiverr = document.querySelector('.fiverr');
 fiverr.addEventListener("click", function(){
-    window.location.href = "https://www.fiverr.com/abuhuraira_k?up_rollout=true";
+    window.location.href = "https://www.fiverr.com/abuhuraira_k";
 });
 
 let upwork = document.querySelector('.fa-upwork');
